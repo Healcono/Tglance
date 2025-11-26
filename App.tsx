@@ -9,7 +9,7 @@ import { SectionId } from './types';
 import Flashcards from './components/Flashcards';
 import Quiz from './components/Quiz';
 import Game from './components/Game';
-import ScenarioChallenge from './components/Scenario.tsx';
+import ScenarioChallenge from './components/Scenario';
 
 // --- Reusable Components ---
 
@@ -41,7 +41,7 @@ const NavLink: React.FC<{
         : 'text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800/50 hover:text-teal-600 dark:hover:text-teal-400'
     }`}
   >
-    {React.cloneElement(icon as React.ReactElement, { size: 20, strokeWidth: active ? 2.5 : 2 })}
+    {React.cloneElement(icon as React.ReactElement<any>, { size: 20, strokeWidth: active ? 2.5 : 2 })}
     <span className="text-sm">{label}</span>
   </button>
 );
