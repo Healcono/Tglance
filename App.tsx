@@ -414,8 +414,16 @@ export default function App() {
               <Card>
                 <p className="mb-8 text-slate-600 dark:text-slate-300 text-lg">For inquiries related to this application or collaborations:</p>
                 <div className="bg-teal-50 dark:bg-teal-900/10 p-8 rounded-2xl border border-teal-100 dark:border-teal-800/30">
-                  <h3 className="text-2xl font-bold text-teal-800 dark:text-teal-300 mb-1">Fatemeh Zarei</h3>
-                  <p className="text-teal-600 dark:text-teal-500 mb-8 font-medium">Associate Editor, Faculty of Medical Sciences, Tarbiat Modares University</p>
+                  <div className="mb-4">
+                    <span className="inline-block px-3 py-1 bg-teal-100 dark:bg-teal-800/50 text-teal-700 dark:text-teal-300 text-xs font-bold uppercase tracking-wider rounded-full">
+                      Web App Developer
+                    </span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-teal-800 dark:text-teal-300 mb-1">Dr. Fatemeh Zarei</h3>
+                  <p className="text-teal-600 dark:text-teal-500 mb-8 font-medium">
+                    Associate Professor in Health Education and Health Promotion<br/>
+                    Tarbiat Modares University
+                  </p>
                   
                   <div className="space-y-6">
                     <div className="flex items-center gap-4 text-slate-700 dark:text-slate-300">
