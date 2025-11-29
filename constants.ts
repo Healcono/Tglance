@@ -1,4 +1,4 @@
-import { QuizQuestion, GameQuestion, Scenario, FlashcardItem, TheoryItem, GlossaryItem } from './types.ts';
+import { QuizQuestion, GameQuestion, Scenario, FlashcardItem, TheoryItem, GlossaryItem } from './types';
 
 export const THEORY_CATEGORIES = {
   individual: {

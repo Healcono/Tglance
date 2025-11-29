@@ -4,12 +4,12 @@ import {
   CheckSquare, MessageSquare, Link as LinkIcon, Info, 
   Menu, X, Search, Moon, Sun, ChevronDown, ExternalLink, Mail, Phone, Send
 } from 'lucide-react';
-import { THEORY_CATEGORIES, PLANNING_MODELS, QUIZ_DATA, GAME_QUESTIONS, SCENARIOS, FLASHCARDS, GLOSSARY } from './constants.ts';
-import { SectionId } from './types.ts';
-import Flashcards from './components/Flashcards.tsx';
-import Quiz from './components/Quiz.tsx';
-import Game from './components/Game.tsx';
-import ScenarioChallenge from './components/Scenario.tsx';
+import { THEORY_CATEGORIES, PLANNING_MODELS, QUIZ_DATA, GAME_QUESTIONS, SCENARIOS, FLASHCARDS, GLOSSARY } from './constants';
+import { SectionId } from './types';
+import Flashcards from './components/Flashcards';
+import Quiz from './components/Quiz';
+import Game from './components/Game';
+import ScenarioChallenge from './components/Scenario';
 
 // --- Reusable Components ---
 
