@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Scenario } from '../types';
+import { Scenario } from '../types.ts';
 import { ArrowRight, CheckCircle, AlertCircle } from 'lucide-react';
 
 interface ScenarioProps {

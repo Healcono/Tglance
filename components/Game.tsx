@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { GameQuestion } from '../types';
+import { GameQuestion } from '../types.ts';
 import { Star, CheckCircle, XCircle, Play } from 'lucide-react';
 
 interface GameProps {

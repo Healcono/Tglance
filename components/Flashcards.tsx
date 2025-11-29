@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FlashcardItem } from '../types';
+import { FlashcardItem } from '../types.ts';
 import { ArrowLeft, ArrowRight, RefreshCw, RotateCw } from 'lucide-react';
 
 interface FlashcardsProps {

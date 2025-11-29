@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { QuizQuestion } from '../types';
+import { QuizQuestion } from '../types.ts';
 import { CheckCircle, XCircle, AlertCircle } from 'lucide-react';
 
 interface QuizProps {

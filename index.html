@@ -6,6 +6,8 @@
     <title>Tglance: Health Promotion Guide</title>
     <meta name="description" content="Interactive guide for health promotion theories">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Babel for in-browser compilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script>
       tailwind.config = {
         darkMode: 'class',
@@ -59,6 +61,7 @@
 </head>
 <body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 transition-colors duration-200">
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Changed type to text/babel and added data-presets for Babel -->
+    <script type="text/babel" data-type="module" data-presets="typescript,react" src="./index.tsx"></script>
 </body>
 </html>
