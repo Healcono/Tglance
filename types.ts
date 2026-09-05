@@ -23,6 +23,7 @@ export interface Scenario {
   id: string;
   title: string;
   targetAudience: string;
+  targetPopulation?: string;
   setting: string;
   scenario: string;
   keyChallenge: string;
@@ -31,6 +32,7 @@ export interface Scenario {
   feedback: string;
   recommendedConstructs: string[];
   theoreticalRationale: string;
+  optimalIntervention?: string;
   bookCaseStudy?: string;
 }
 
@@ -71,6 +73,7 @@ export interface GlossaryItem {
   term: string;
   definition: string;
   category: string;
+  relatedTheory?: string;
   keyTheorists?: string;
 }
 
@@ -88,6 +91,7 @@ export interface StudentProgress {
   university: string;
   role: 'student' | 'researcher' | 'practitioner' | 'instructor';
   completedTheories: string[];
+  bookmarkedTheories?: string[];
   masteredFlashcards: string[];
   quizScores: { quizId: string; score: number; total: number; date: string }[];
   gameHighScore: number;

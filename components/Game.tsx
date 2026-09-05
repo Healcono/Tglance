@@ -19,7 +19,7 @@ const Game: React.FC<GameProps> = ({ questions, onGameComplete }) => {
   const [gameStatus, setGameStatus] = useState<'start' | 'playing' | 'end'>('start');
   const [lastResult, setLastResult] = useState<'correct' | 'incorrect' | 'timeout' | null>(null);
 
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (gameStatus === 'start') {
