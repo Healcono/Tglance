@@ -1,5 +1,8 @@
 {
   "name": "Tglance",
-  "description": "A comprehensive interactive guide to health promotion theories, models, and planning frameworks.",
-  "requestFramePermissions": []
+  "description": "Student Academic Progress Tracker and comprehensive guide to health promotion theories, models, and planning frameworks by Dr. Fatemeh Zarei.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
