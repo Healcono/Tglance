@@ -385,11 +385,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
           Faculty of Medical Sciences, Tarbiat Modares University- Tehran, Iran
         </p>
         <div className="pt-2 mt-1 flex flex-col gap-1.5 border-t border-slate-200/60 dark:border-slate-700/60 text-[10.5px]">
-          <div className="flex items-center justify-between text-emerald-700 dark:text-emerald-400 font-medium">
-            <a href="https://t.me/healthcono" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1">
-              <Send size={11} /> @healthcono
+          <div className="flex items-center justify-between text-xs font-medium">
+            <a href="https://t.me/healthcono" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1 text-sky-600 dark:text-sky-400 font-semibold">
+              <Send size={11} className="text-sky-500" /> @healthcono
             </a>
-            <a href="https://www.youtube.com/@healcono" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1 text-red-600 dark:text-red-400">
+            <a href="https://www.youtube.com/@healcono" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1 text-red-600 dark:text-red-400 font-semibold">
               <Youtube size={11} /> @healcono
             </a>
           </div>

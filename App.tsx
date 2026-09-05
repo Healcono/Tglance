@@ -1084,12 +1084,12 @@ export default function App() {
                           href="https://t.me/healthcono" 
                           target="_blank" 
                           rel="noreferrer" 
-                          className="flex items-center gap-4 p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 shadow-xs hover:border-emerald-400 transition-all"
+                          className="flex items-center gap-4 p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 shadow-xs hover:border-sky-400 transition-all group"
                         >
-                          <div className="p-3 bg-emerald-50 dark:bg-slate-700 rounded-xl text-emerald-600 dark:text-emerald-400"><Send size={20} /></div>
+                          <div className="p-3 bg-sky-50 dark:bg-sky-950/40 rounded-xl text-sky-500 dark:text-sky-400"><Send size={20} /></div>
                           <div>
                             <span className="block text-[10px] text-slate-400 uppercase font-bold">Telegram Channel</span>
-                            <span className="font-bold text-emerald-700 dark:text-emerald-400 text-sm">@healthcono</span>
+                            <span className="font-bold text-sky-600 dark:text-sky-400 text-sm group-hover:underline">@healthcono</span>
                           </div>
                         </a>
 
@@ -1154,14 +1154,16 @@ export default function App() {
                           <p>
                             Faculty of Medical Sciences, Tarbiat Modares University- Tehran, Iran
                           </p>
-                          <p className="text-emerald-700 dark:text-emerald-400 flex flex-wrap items-center gap-x-2 gap-y-1">
-                            <span>f.zarei@modares.ac.ir</span>
+                          <p className="text-slate-600 dark:text-slate-300 flex flex-wrap items-center gap-x-2.5 gap-y-1 font-medium">
+                            <a href="mailto:f.zarei@modares.ac.ir" className="hover:underline">f.zarei@modares.ac.ir</a>
                             <span>•</span>
-                            <span>healcono@gmail.com</span>
+                            <a href="mailto:healcono@gmail.com" className="hover:underline">healcono@gmail.com</a>
                             <span>•</span>
-                            <a href="https://t.me/healthcono" target="_blank" rel="noreferrer" className="hover:underline">@healthcono (Telegram)</a>
+                            <a href="https://t.me/healthcono" target="_blank" rel="noreferrer" className="hover:underline text-sky-600 dark:text-sky-400 flex items-center gap-1 font-semibold">
+                              <Send size={12} className="text-sky-500" /> @healthcono (Telegram)
+                            </a>
                             <span>•</span>
-                            <a href="https://www.youtube.com/@healcono" target="_blank" rel="noreferrer" className="hover:underline text-red-600 dark:text-red-400 flex items-center gap-1">
+                            <a href="https://www.youtube.com/@healcono" target="_blank" rel="noreferrer" className="hover:underline text-red-600 dark:text-red-400 flex items-center gap-1 font-semibold">
                               <Youtube size={12} /> @healcono (YouTube)
                             </a>
                           </p>
@@ -1183,16 +1185,18 @@ export default function App() {
             <span className="hidden sm:inline">•</span>
             <span>Dr. Fatemeh Zarei (Associate Prof, Tarbiat Modares University)</span>
           </div>
-          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3 text-xs font-semibold text-emerald-700 dark:text-emerald-400">
-            <a href="mailto:f.zarei@modares.ac.ir" className="hover:underline">f.zarei@modares.ac.ir</a>
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3 text-xs font-semibold text-slate-600 dark:text-slate-300">
+            <a href="mailto:f.zarei@modares.ac.ir" className="hover:underline text-emerald-800 dark:text-emerald-400">f.zarei@modares.ac.ir</a>
             <span>•</span>
-            <a href="https://t.me/healthcono" target="_blank" rel="noreferrer" className="hover:underline">@healthcono</a>
+            <a href="https://t.me/healthcono" target="_blank" rel="noreferrer" className="hover:underline text-sky-600 dark:text-sky-400 flex items-center gap-1">
+              <Send size={12} className="text-sky-500" /> @healthcono
+            </a>
             <span>•</span>
             <a href="https://www.youtube.com/@healcono" target="_blank" rel="noreferrer" className="hover:underline text-red-600 dark:text-red-400 flex items-center gap-1">
               <Youtube size={13} /> @healcono
             </a>
             <span>•</span>
-            <a href="mailto:healcono@gmail.com" className="hover:underline">healcono@gmail.com</a>
+            <a href="mailto:healcono@gmail.com" className="hover:underline text-slate-600 dark:text-slate-400">healcono@gmail.com</a>
           </div>
         </div>
       </footer>

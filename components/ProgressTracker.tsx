@@ -663,7 +663,15 @@ const ProgressTracker: React.FC<ProgressTrackerProps> = ({
                   <p className="font-bold text-slate-900 text-sm">Dr. Fatemeh Zarei</p>
                   <p className="text-xs font-medium text-emerald-800">Associate Prof in Health Education & Health Promotion</p>
                   <p className="text-[11px] text-slate-500">Faculty of Medical Sciences, Tarbiat Modares University- Tehran, Iran</p>
-                  <p className="text-[10px] text-emerald-700 mt-0.5">f.zarei@modares.ac.ir • Telegram: @healthcono • YouTube: @healcono • healcono@gmail.com</p>
+                  <p className="text-[10.5px] text-slate-600 mt-1 flex flex-wrap items-center gap-1.5">
+                    <span>f.zarei@modares.ac.ir</span>
+                    <span>•</span>
+                    <span className="text-sky-700 font-semibold">Telegram: @healthcono</span>
+                    <span>•</span>
+                    <span className="text-red-700 font-semibold">YouTube: @healcono</span>
+                    <span>•</span>
+                    <span>healcono@gmail.com</span>
+                  </p>
                 </div>
 
                 <div className="flex flex-col items-center">
